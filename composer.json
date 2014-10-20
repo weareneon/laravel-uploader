@@ -1,6 +1,6 @@
 {
     "name": "fastwebmedia/uploader",
-    "description": "",
+    "description": "Generic image uploader",
     "authors": [
         {
             "name": "Fast Web Media",
@@ -10,7 +10,7 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "4.2.*",
-        "aws/aws-sdk-php-laravel": "1.1.*"
+        "aws/aws-sdk-php-laravel": ">=1.1.*"
     },
     "autoload": {
         "psr-0": {
