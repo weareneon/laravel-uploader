@@ -1,18 +1,21 @@
-<?php namespace \FWM\Uploader;
+<?php namespace FWM\Uploader;
 
 class Helpers {
 
-    public function create_folder_path()
+    /**
+     * createFolderPath Creates year-month upload path. 
+     * /
+    public function createFolderPath()
     {
        return "uploads/".date('Y')."/".date('m')."/";
     }
 
     /**
-     * format_filename Remove spaces & add a timestamp to files
+     * formatFilename Remove spaces & add a timestamp to files
      * @var string filename
      * @return string formatted filename
      */
-    public function format_filename($filename)
+    public function formatFilename($filename)
     {
       return time() . "-" . str_replace(" ", "", $filename);
     }
