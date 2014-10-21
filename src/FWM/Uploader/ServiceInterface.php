@@ -9,4 +9,15 @@ interface ServiceInterface {
      */
     public function uploadImage($image, $destination);
 
+    /**
+     * @return mixed
+     */
+    public function createFolderPath();
+
+    /**
+     * @param $filename
+     * @return mixed
+     */
+    public function formatFilename($filename);
+
 } 

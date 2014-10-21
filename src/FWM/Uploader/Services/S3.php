@@ -1,9 +1,10 @@
 <?php namespace FWM\Uploader\Services; 
 
+use FWM\Uploader\Helpers;
 use FWM\Uploader\ServiceInterface;
 use Illuminate\Foundation\Application;
 
-class S3 implements ServiceInterface {
+class S3 extends Helpers implements ServiceInterface {
 
     /**
      * @var Application

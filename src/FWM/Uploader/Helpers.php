@@ -3,7 +3,7 @@
 class Helpers {
 
     /**
-     * createFolderPath Creates year-month upload path. 
+     * Creates year-month upload path.
      */
     public function createFolderPath()
     {
@@ -11,7 +11,7 @@ class Helpers {
     }
 
     /**
-     * formatFilename Remove spaces & add a timestamp to files
+     * Remove spaces & add a timestamp to files
      * @var string filename
      * @return string formatted filename
      */
@@ -20,4 +20,4 @@ class Helpers {
       return time() . "-" . str_replace(" ", "", $filename);
     }
 
-} // class Helpers
+}
