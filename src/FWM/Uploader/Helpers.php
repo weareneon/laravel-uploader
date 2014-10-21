@@ -4,7 +4,7 @@ class Helpers {
 
     /**
      * createFolderPath Creates year-month upload path. 
-     * /
+     */
     public function createFolderPath()
     {
        return "uploads/".date('Y')."/".date('m')."/";
