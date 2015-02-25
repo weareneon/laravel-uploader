@@ -17,7 +17,7 @@ class UploaderServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->package('fastwebmedia/uploader');
+        //
     }
 
     /**
